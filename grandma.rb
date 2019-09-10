@@ -13,8 +13,6 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 
-require 'pry'
-
 def speak_to_grandma(string)
   if string =~ /[A-Z]/
     return "NO, NOT SINCE 1938!"
@@ -25,5 +23,3 @@ def speak_to_grandma(string)
     return "HUH?! SPEAK UP, SONNY!"
   end
 end
-
-speak_to_grandma("")
